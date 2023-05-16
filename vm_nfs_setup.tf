@@ -7,7 +7,7 @@
     required_version = ">= 0.13"
   }
   provider "scaleway" {
-    project_id	    = "33ebcbf6-7407-4e6f-8d64-b2bee2bf8a41"
+    project_id	    = ${{ secrets.project_id }}
     zone            = "fr-par-1"
     region          = "fr-par"
   }
